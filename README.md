@@ -21,7 +21,7 @@ It creates a Splunk search job, polls for completion, and pages results through 
 # Example, adjust for your packaging
 wget https://github.com/extkljajicm/mnemosyne-splunk-datasource/releases/download/v1.0.0/mnemosyne-splunk-datasource-1.0.0.zip
 cd /var/lib/grafana/plugins/
-unzip mnemosyne-splunk-datasource-1.0.6.zip
+unzip mnemosyne-splunk-datasource-1.0.0.zip
 ```
 
 For Grafana v8+ allow unsigned plugins in `/etc/grafana/grafana.ini` (or set `GF_PLUGINS_ALLOW_LOADING_UNSIGNED_PLUGINS`):
